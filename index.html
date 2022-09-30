@@ -1,0 +1,234 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SoulFull</title>
+
+    <!--to display favicon-->
+    <link rel="icon" type="image/x-icon" href="favicon.ico">
+
+    <!--linking the css styles sheet -->
+    <link rel="stylesheet" href="./style.css">
+
+    <!-- to display pause, forward and backward button-->
+    <script src="https://kit.fontawesome.com/c8e4d183c2.js" crossorigin="anonymous"></script>
+
+</head>
+
+<body>
+    <div class="container">
+      <!--left side-bar content-->
+        <div class="slidebar">
+            <div class="logo">
+              <!--cloud logo-->
+                <i class="logo-icon fab fa-soundcloud"></i>
+                <span class="logo-text">SoulFull</span>
+            </div>
+            <!--menu contents-->
+            <div class="menu">
+                <p>Menu</p>
+                <a href="#" class="menu-active">
+                  <!--creating seperate class for home button to add css-->
+                    <i class="fas fa-home"></i>
+                    Home
+                </a>
+                <a href="#">
+                    <!--creating seperate class for discover button to add css-->
+                    <i class="fas fa-compass"></i>
+                    Discover
+                </a>
+                <a href="#">
+                    <!--creating seperate class for favorite button to add css-->
+                    <i class="fas fa-heart"></i>
+                    Favorite
+                </a>
+                <a href="#">
+                    <!--creating seperate class for search button to add css-->
+                    <i class="fas fa-search"></i>
+                    Search
+                </a>
+            </div>
+            <!--library contents-->
+            <div class="library">
+                <p>Library</p>
+                <a href="#">
+                  <!--creating seperate class for singles button to add css-->
+                    <i class="fas fa-compact-disc"></i>
+                    Singles
+                </a>
+                <a href="#">
+                  <!--creating seperate class for albums button to add css-->
+                    <i class="fas fa-compact-disc"></i>
+                    Albums
+                </a>
+                <a href="#">
+                  <!--creating seperate class for artist button to add css-->
+                    <i class="fas fa-music"></i>
+                    Artist
+                </a>
+            </div>
+            <!--my-playlist contents-->
+            <div class="my-playlist">
+                <p>My Playlist</p>
+                <a href="#">
+                    <i class="fas fa-bookmark"></i>
+                    psyced 🕺🏻
+                </a>
+                <a href="#">
+                    <i class="fas fa-bookmark"></i>
+                    Soothing 🎶
+                </a>
+                <a href="#">
+                    <i class="fas fa-bookmark"></i>
+                    Songs for 🏃🏽‍♂️
+                </a>
+            </div>
+        </div>
+        <!--top-trending section-->
+        <div class="content">
+            <div class="top-content">
+                <div class="trending">
+                    <div class="left">
+                        <p class="type">Trending</p>
+                        <p class="title">As It Was</p>
+                        <p class="artist">Harry Styles</p>
+                        <p class="view">8 Million listens</p>
+                        <a href="#" class="btn-play">Play Now</a>
+                    </div>
+
+                    <!--right top button to display user name-->
+                    <div class="right">
+                        <img src="./images/avatar.jpg" alt="">
+                        John Doe
+                    </div>
+                </div>
+            </div>
+            <!--for middler part, that contains 5 songs-->
+            <div class="bottom-content">
+                <div class="playlist">
+                    <div class="left-side">
+                        <div class="left-side-top">
+                            <div class="top-albums-title">
+                                <span>Top Albums</span>
+                                <span>See all</span>
+                            </div>
+                            <div class="top-albums">
+                                <div class="card-albums">
+                                    <img src="./images/deva deva.jpg" alt="">
+                                    <p>Deva Deva</p>
+                                </div>
+                                <div class="card-albums">
+                                    <img src="./images/kesariya.jpg" alt="">
+                                    <p>Kesariya</p>
+                                </div>
+                                <div class="card-albums">
+                                    <img src="./images/werollin.jpg" alt="">
+                                    <p>We Rollin</p>
+                                </div>
+                                <div class="card-albums">
+                                    <img src="./images/freedom.jpg" alt="">
+                                    <p>Freedom</p>
+                                </div>
+                                <div class="card-albums">
+                                    <img src="./images/Cover Me in Sunshine.png" alt="">
+                                    <p>Sunshine</p>
+                                </div>
+                            </div>
+                        </div>
+
+                        <!--for bottom left part containing genres section-->
+                        <div class="left-side-bottom">
+                            <div class="left">
+                                <div class="genres-table-title">
+                                    <span>Genres</span>
+                                    <span>See all</span>
+                                </div>
+                                <div class="genres-table">
+                                    <span class="grid-item">Pop</span>
+                                    <span class="grid-item">Podcast</span>
+                                    <span class="grid-item">Rock</span>
+                                    <span class="grid-item">Classical</span>
+                                    <span class="grid-item">HipHop</span>
+                                    <span class="grid-item">EDM</span>
+                                    <span class="grid-item">Indie</span>
+                                </div>
+                            </div>
+
+                            <!--top songs section -->
+                            <div class="right">
+                                <p>Top Songs</p>
+                                <div class="songs">
+                                    <div class="song">
+                                      <!--to display image-->
+                                        <img src="./images/song1.jpg" alt="" class="song-img">
+                                        <div class="song-title">
+                                            <span>Pathala</span>
+                                            <span>Kamal Haasan</span>
+                                        </div>
+                                        <span class="song-time">
+                                            3.56 min
+                                        </span>
+                                        <a href="#" class="btn-song-play">
+                                            <i class="far fa-play-circle"></i>
+                                        </a>
+                                    </div>
+                                    <div class="song">
+                                        <!--to display image-->
+                                        <img src="./images/song2.jpg" alt="" class="song-img">
+                                        <div class="song-title">
+                                            <span>Pasoori</span>
+                                            <span>Ali x Shae</span>
+                                        </div>
+                                        <span class="song-time">
+                                            4.12 min
+                                        </span>
+                                        <a href="#" class="btn-song-play">
+                                            <i class="far fa-play-circle"></i>
+                                        </a>
+                                    </div>
+                                    <div class="song">
+                                        <!--to display image-->
+                                        <img src="./images/song3.jpg" alt="" class="song-img">
+                                        <div class="song-title">
+                                            <span>Hong long</span>
+                                            <span>Charlie Puth</span>
+                                        </div>
+                                        <span class="song-time">
+                                            2.56 min
+                                        </span>
+                                        <a href="#" class="btn-song-play">
+                                            <i class="far fa-play-circle"></i>
+                                        </a>
+                                    </div>
+
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- now playing section-->
+                    <div class="right-side">
+                        <p class="adp-card-title">Now Playing</p>
+                        <div class="audio-player">
+                            <img src="./images/audio.jpg" alt="" class="adp-img" id="image">
+                            <div class="adp-title">
+                                <p id="title">Chaand Baaliyan</p>
+                                <p>Aditya A</p>
+                            </div>
+                        </div>
+                        <div class="adp-action">
+                            <a href="#" id="previous" onclick="previousSong()"><i class="fas fa-backward"></i></a>
+                            <a href="#" id="play" onclick="justPlay()"><i class="fas fa-play"></i></a>
+                            <a href="#" id="next" onclick="nextSong()"><i class="fas fa-forward"></i></a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+  <!--<script src="./index.js"></script>-->
+</body>
+
+</html>
